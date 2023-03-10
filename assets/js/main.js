@@ -19,17 +19,21 @@ for (let i = 1; i < 101; i++) {
         // i = "fizz"
         numberEl.append("Fizz");
         console.log("Fizz");
+        numberEl.style.backgroundColor = ("green");
         // create a else if condition for the 5 multiples with % method
         //console.log buzz
     } else if (i % 5 === 0 && i % 3 != 0) {
         numberEl.append("Buzz");
         console.log("Buzz");
+        numberEl.style.backgroundColor = ("red");
         // create a else if condition with && logical operator for 3 and 5 multiples 
         //console.log fizzbuzz
     } else if (i % 3 === 0 && i % 5 === 0) {
         numberEl.append("FizzBuzz");
         console.log("FizzBuzz");
+        numberEl.style.backgroundColor = ("yellow");
     } else {
+        numberEl.style.backgroundColor = ("lightblue");
         numberEl.append(i)
         console.log(i)
     }
