@@ -4,11 +4,9 @@
 // per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
 
-const rowEl = document.querySelector(".row");
+
 
 const containerEl = document.querySelector(".container");
-
-containerEl.append(rowEl);
 
 
 
@@ -37,9 +35,9 @@ for (let i = 1; i < 101; i++) {
     }
 
    
-
-    numberEl.classList.add = ("col");
-    rowEl.append(numberEl)
+    numberEl.classList.add("box");
+    containerEl.append(numberEl);
+  
 
 
 }

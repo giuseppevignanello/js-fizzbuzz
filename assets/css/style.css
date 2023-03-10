@@ -1,0 +1,13 @@
+#app_header {
+    height: 70px;
+}
+
+.box {
+    width: calc(100%/8);
+    aspect-ratio: 1;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.5rem;
+}
