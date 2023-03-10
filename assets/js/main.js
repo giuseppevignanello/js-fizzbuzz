@@ -11,11 +11,11 @@ const containerEl = document.querySelector(".container");
 
 
 // Create a for loop to console.log the numbers 
-for (let i = 1; i < 100001; i++) {
+for (let i = 1; i < 101; i++) {
     const numberEl = document.createElement("div");
     // create a if condition for 3 multiples with % method
     //console.log fizz
-    if (i % 3 === 0 && i % 5 != 0) {
+    if (i % 3 === 0 && i % 5 != 0 && i % 7 != 0) {
         // i = "fizz"
         numberEl.append("Fizz");
         console.log("Fizz");
@@ -32,7 +32,15 @@ for (let i = 1; i < 100001; i++) {
         numberEl.append("FizzBuzz");
         console.log("FizzBuzz");
         numberEl.style.backgroundColor = ("#f0466f");
-    } else {
+
+    
+    } else if (i % 7 === 0 || (i+'').indexOf('7') > -1) {
+        numberEl.append("Bum");
+        console.log("Bum");
+        numberEl.style.backgroundColor = ("red");
+    }
+    
+    else {
         numberEl.style.backgroundColor = ("#1389b2");
         numberEl.append(i)
         console.log(i)
@@ -45,6 +53,7 @@ for (let i = 1; i < 100001; i++) {
 
 
 }
+
 
 
 
