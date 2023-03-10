@@ -11,7 +11,7 @@ const containerEl = document.querySelector(".container");
 
 
 // Create a for loop to console.log the numbers 
-for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 100001; i++) {
     const numberEl = document.createElement("div");
     // create a if condition for 3 multiples with % method
     //console.log fizz
