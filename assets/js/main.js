@@ -4,6 +4,10 @@
 // per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
 // Create a for loop to console.log the numbers 
+
+for (let i =1; i<101; i++) {
+    console.log(i)
+}
 // create a if condition for 3 multiples with % method
     //console.log fizz
 // create a else if condition for the 5 multiples with % method
